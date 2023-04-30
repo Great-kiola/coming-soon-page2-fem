@@ -28,6 +28,7 @@ section{
     font-size: 1.1rem;
     color: var(--Gray);
     margin-top: 30px;
+    font-weight: 300;
 }
 
 ion-icon{
@@ -38,8 +39,12 @@ ion-icon{
     background-color: white;
     padding: 15px;
     border-radius: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+ion-icon:hover{
     border: 1px solid var(--PaleBlue);
-    margin-right: 20px;
 }
 
 .textDiv{
@@ -70,16 +75,16 @@ ion-icon{
 }
 
 .emailDiv input{
-    padding: 20px;
-    width: 350px;
+    padding: 15px;
+    width: 550px;
     margin-right: 20px;
     border-radius: 35px;
     border: 1.5px solid var(--Gray);
 }
 
 .emailDiv button{
-    padding: 20px;
-    width: 150px;
+    padding: 15px;
+    width: 250px;
     border-radius: 35px;
     background-color: var(--Blue);
     color: #fff;
