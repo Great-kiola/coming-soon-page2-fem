@@ -5,7 +5,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## Screenshot
 
-![](./screenshot.jpg)
+<img src="./assets/Screenshot.png" alt="Completed Design" width=900>
 
 ## The challenge
 
