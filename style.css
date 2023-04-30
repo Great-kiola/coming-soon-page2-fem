@@ -9,5 +9,104 @@
 body{
     line-height: 1.5;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+section{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuFooter h2{
+    font-size: 1.1rem;
+    color: var(--Gray);
+    margin-top: 30px;
+}
+
+ion-icon{
+    color: var(--Blue);
+    font-size: 1.5rem;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 100%;
+    border: 1px solid var(--PaleBlue);
+    margin-right: 20px;
+}
+
+.textDiv{
+    text-align: center;
+    margin: 50px;
+}
+
+.textDiv h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: var(--Gray);
+}
+
+.textDiv span{
+    font-weight: 700;
+    color: #000;
+}
+
+.emailDiv{
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.inputDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailDiv input{
+    padding: 20px;
+    width: 350px;
+    margin-right: 20px;
+    border-radius: 35px;
+    border: 1.5px solid var(--Gray);
+}
+
+.emailDiv button{
+    padding: 20px;
+    width: 150px;
+    border-radius: 35px;
+    background-color: var(--Blue);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.icons{
+    text-align: center;
+}
+
+.errorDiv{
+    color: var(--LightRed);
+    font-size: .9rem;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.mainImage{
+    width: 900px;
+}
+
+
+:root{
+    --Blue: hsl(223, 87%, 63%);
+    --PaleBlue: hsl(223, 100%, 88%);
+    --LightRed: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --VeryDarkBlue: hsl(209, 33%, 12%);
+}

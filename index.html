@@ -12,29 +12,39 @@
 <body>
 
   <main>
-    <div class="container">
+    <section class="container">
 
       <div class="logo">
         <img src="./images/logo.svg" alt="Brand image logo">
       </div>
 
       <div class="textDiv">
-        <h1>We are launching soon!</h1>
+        <h1>We are launching <span> soon! </span></h1>
         <p>Subscribe and get notified</p>  
       </div>
 
       <div class="emailDiv">
 
-        <input type="email" placeholder="Your email address">
-        <button class="btn"> Notify Me </button>
+        <div class="inputDiv">
+          <input type="email" placeholder="Your email address">
+          <button class="btn"> Notify Me </button>
+        </div>
+
+        <div class="errorDiv">
+          <p>Input valid email</p>
+        </div>
+          
       </div>
 
       <div class="imageDiv">
-        <img src="./images/illustration-dashboard.png" alt="Dashboard main-menu illustration">
+        <img class="mainImage" src="./images/illustration-dashboard.png" alt="Dashboard main-menu illustration">
       </div>
 
       <div class="menuFooter">
         <div class="icons">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
 
         </div>
 
@@ -42,7 +52,7 @@
 
       </div>    
       
-    </div>
+    </section>
   </main>
 
 
@@ -56,6 +66,8 @@
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script src="script.js"></script>
 
 
 </body>
