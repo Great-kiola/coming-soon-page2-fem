@@ -20,8 +20,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-0qHpHQmQ10)
+- Live Site URL: [Live site URL](https://coming-soon-page2-fem.netlify.app/)
 
 ## Built with
 
